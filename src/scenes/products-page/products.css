@@ -1,0 +1,21 @@
+  .glowing {
+
+    letter-spacing: 7px;
+    padding: 64px;
+    background: linear-gradient(to right, rgb(11, 193, 11), white 10%, green 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
