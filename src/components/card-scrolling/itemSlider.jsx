@@ -35,7 +35,7 @@ const ItemsSlider = ({ title, children }) => {
   
     return (
       <Container fluid className='my-3 py-3 item-slider-container '>
-        <h4 className='px-3 mb-3 item-title text-white text-xl font-bold text-start mx-[30px]'>{title}</h4>
+        <h4 className='px-3 mb-3 item-title text-white sm:text-xl text-md font-bold mx-[30px]'>{title}</h4>
         <div className='item-slider'>
           <div onClick={() => slide(-100)} className={`left-arrow-left ${(scrollX < 1) ? 'is-disabled-hide' : ''}`}>
             <MdArrowBackIos size="70px" />

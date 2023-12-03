@@ -1,15 +1,11 @@
-import { useNavigate } from "react-router-dom";
 import { Typewriter } from 'react-simple-typewriter'
 
 
 const Hero = () => {
-    const navigate= useNavigate();
-    
-
     return (  
 <div className=" text-white pt-20 text-start">
-      <div className="text-xl font-bold  ">
-      <div className="text-5xl text-start px-10 font-bold">
+      <div className="text-xl font-bold">
+      <div className="text-3xl xl:text-6xl sm:text-5xl md:text-5xl lg:text-5xl text-start px-10 font-bold">
           
           <Typewriter
             words={['Hi, I am Cesare,']}
@@ -20,7 +16,7 @@ const Hero = () => {
             delaySpeed={1000}
           />
         </div>
-        <div className="text-5xl text-start px-10 font-bold">
+        <div className="text-3xl xl:text-6xl sm:text-5xl md:text-5xl lg:text-5xl text-start px-10 font-bold">
           
           <Typewriter
             words={['a physics student and','a full stack developer']}
