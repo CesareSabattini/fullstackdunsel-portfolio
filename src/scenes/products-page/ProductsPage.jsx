@@ -67,14 +67,14 @@ I will provide you an interactive and responsive website according
 <br />
 to your indications, with particular to the design, which will include:
 <ol className='leading-10'>
-    <li className='text-start'>  <PostAdd/> Up to 5 pages</li>
-    <li className='text-start'> <Architecture/> A modern, interactive and original design</li>
+    <li className='text-start'>  <PostAdd/> Up to 10 pages</li>
+    <li className='text-start'> <Architecture/> A modern, interactive and responsive design</li>
     <li className='text-start'> <Image/> Images Storage system</li>
     <li className='text-start'><CloudDone/> Hosting services</li>
 </ol>
 </div>
 
-<a href="https://it.fiverr.com/cesaresabattini/develop-a-full-stack-website-for-your-activity"
+<a href="https://it.fiverr.com/cesaresabattini/be-your-react-front-end-developer"
 className='text-green-700 font-bold text-start text-xl hover:text-green-300'
 >
     Click here to check the details
